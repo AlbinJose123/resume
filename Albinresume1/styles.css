@@ -1,0 +1,185 @@
+body
+{
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+}
+.main-container
+{
+position:relative;
+width:100%;
+max-width:1000px;
+min-height:100px;
+background-color:#fff;
+display:grid;
+grid-template-columns:1fr 2fr;
+ box-shadow: 0px 10px 18px #888888;
+}
+.main-container .left_class
+{
+position:relative;
+background-color:#ccffff;
+padding:40px;
+}
+
+.profiledetails
+{
+position:relative;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding-bottom:20px;
+border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.profiledetails .imgbox
+{
+position:relative;
+width:200px;
+height:200px;
+
+overflow:hidden;
+}
+.profiledetails .imgbox img
+{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:cover;
+}
+.profiledetails h2
+{
+color:#003147;
+}
+.contact_info
+{
+padding-top:40px;
+}
+.title
+{
+color:#003147;
+margin-bottom:20px;
+}
+.contact_info ul
+{
+position:relative;
+}
+.contact_info ul li
+{
+position:relative;
+list-style:none;
+margin:10px 0;
+cursor:pointer;
+}
+.contact_info ul li .icon
+{
+display:inline-block;
+width:30px;
+font-size:18px;
+color:#03a9f4;
+}
+.contact_info ul li span
+{
+color:#003147;
+}
+.submain
+{
+margin-left:-40px;
+}
+.submain br
+{
+margin-left:-30px;
+}
+.main-container .right_class
+{
+position:relative;
+background-color:#fff;
+padding:40px;
+}
+.objective
+{
+margin-bottom:20px;
+}
+.title2
+{
+color:#003147;
+margin-bottom:20px;
+}
+p
+{
+color:#333;
+}
+
+.objective .box
+{
+display:flex;
+flex-direction:row;
+margin:-20px 0;
+}
+.objective .box .year_company
+{
+min-width:150px;
+}
+.objective .box .year_company h5
+{
+color:#848c90;
+font-weight:600;
+}
+.objective .box .text h4
+{
+color:#2a7da2;
+font-size:16px;
+}
+table {
+ 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+.skills .box
+{
+position:relative;
+width:100%;
+display:grid;
+grid-template-columns:150px 1fr;
+justify-content:center;
+align-items:center;
+}
+.skills .box h4
+{
+color:#848c99;
+}
+.skills .box .percent
+{
+position:relative;
+width:100%;
+height:10px;
+background:#f0f0f0;
+}
+.skills .box .percent div
+{
+position:absolute;
+top:0;
+left:0;
+height:100%;
+background:#003147;
+}
+
+
+
+.contact_info.achie
+{
+color:#003147;
+line-height:30px;
+}
